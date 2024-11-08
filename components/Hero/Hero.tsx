@@ -412,9 +412,9 @@ export default function Hero() {
           className="div"
         >
           <h2 className="text-center text-xl md:text-7xl tracking-tighter font-bold text-white">
-            Hackademic
+            HACKADEMIC
           </h2>
-          <p className="text-center tracking-tight text-base md:text-2xl font-normal text-neutral-200 max-w-md mt-2 mx-auto">
+          <p className="text-center tracking-tighter text-base md:text-2xl font-normal text-neutral-200 max-w-md mt-2 mx-auto">
             Never compromise on <span className="text-red-500 font-semibold">security</span>
           </p>
         </motion.div>
