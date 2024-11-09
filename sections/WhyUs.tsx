@@ -3,8 +3,7 @@ import BackgroundGradient from "@/components/BackgroundGradient";
 export function WhyUs() {
     return (
         <section id="features" className="relative block px-6 py-10 md:py-20 md:px-10">
-            <BackgroundGradient color1="#1700cd"
-            color2="#06cbff" position="left" id={2}/>
+            <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="left" id={4}/>
             <div className="relative mx-auto max-w-5xl text-center">
                 <span className="text-gray-400 my-3 flex items-center justify-center font-medium uppercase tracking-wider">
                     Why choose us
