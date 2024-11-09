@@ -10,7 +10,7 @@ const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 p-1">
+    <nav className="sticky top-0 backdrop-blur-sm z-20 bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 p-1">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image src={Logo} width={30} height={30} alt="Hackademic Logo" />
