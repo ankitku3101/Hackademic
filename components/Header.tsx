@@ -13,7 +13,7 @@ const Header = () => {
     <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 p-1">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <Image src={Logo} width={35} height={35} alt="Hackademic Logo" />
+          <Image src={Logo} width={30} height={30} alt="Hackademic Logo" />
           <span className="text-lg font-bold dark:text-white tracking-tight">HACKADEMIC</span>
         </Link>
         <button

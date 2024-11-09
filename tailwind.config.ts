@@ -5,6 +5,7 @@ const config = {
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
+    "./sections/**/*.{js,ts,jsx,tsx,mdx}",
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
 	],
@@ -12,9 +13,9 @@ const config = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1400px",
+      padding: {
+        DEFAULT: "20px",
+        lg: "80px",
       },
     },
     extend: {
