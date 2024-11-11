@@ -3,7 +3,7 @@ import BackgroundGradient from "@/components/BackgroundGradient";
 export function WhyUs() {
     return (
         <section id="features" className="relative block px-6 py-10 md:py-20 md:px-10">
-            <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="left" id={4}/>
+            <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="bottom left" id={10}/>
             <div className="relative mx-auto max-w-5xl text-center">
                 <span className="text-gray-400 my-3 flex items-center justify-center font-medium uppercase tracking-wider">
                     Why choose us
@@ -17,7 +17,7 @@ export function WhyUs() {
             </div>
 
             <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
-                <div className="rounded-md border border-neutral-800 bg-black p-8 text-center shadow">
+                <div className="p-6 bg-transparent rounded-xl border border-black/10 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-40 text-center shadow-black shadow-xl">
                     <div className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border bg-gradient-to-r from-purple-700 to-blue-600 border-purple-500">
                         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-color-swatch" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -28,12 +28,12 @@ export function WhyUs() {
                         </svg>
                     </div>
                     <h3 className="mt-6 text-gray-400">Customizable</h3>
-                    <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400">
+                    <p className="my-4 mb-0 font-normal leading-relaxed text-gray-400">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur praesentium illo corporis. Quod minima
                     </p>
                 </div>
 
-                <div className="rounded-md border border-neutral-800 bg-black p-8 text-center shadow">
+                <div className="bg-transparent p-6 rounded-xl border border-black/10 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-40 text-center shadow-black shadow-xl">
                     <div className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border bg-gradient-to-r from-purple-700 to-blue-600 border-purple-500">
                         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-bolt" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -41,12 +41,12 @@ export function WhyUs() {
                         </svg>
                     </div>
                     <h3 className="mt-6 text-gray-400">Fast Performance</h3>
-                    <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400">
+                    <p className="my-4 mb-0 font-normal leading-relaxed text-gray-400">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, pariatur minima? Voluptas animi est officiis laborum 
                     </p>
                 </div>
 
-                <div className="rounded-md border border-neutral-800 bg-black p-8 text-center shadow">
+                <div className="bg-transparent p-6 rounded-xl border border-black/10 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-40 text-center shadow-black shadow-xl">
                     <div className="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border bg-gradient-to-r from-purple-700 to-blue-600 border-purple-500">
                         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-tools" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -59,7 +59,7 @@ export function WhyUs() {
                         </svg>
                     </div>
                     <h3 className="mt-6 text-gray-400">Fully Featured</h3>
-                    <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400">
+                    <p className="my-4 mb-0 font-normal leading-relaxed text-gray-400">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis earum in itaque deserunt similique culpa 
                     </p>
                 </div>

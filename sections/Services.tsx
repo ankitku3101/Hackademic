@@ -1,25 +1,12 @@
 'use client'
 
+import BackgroundGradient from "@/components/BackgroundGradient";
 import { HoverEffect } from "../components/ui/card-hover-effect";
 
 export function Services() {
   return (
     <section className="container isolate relative">
-      <div
-        className="absolute inset-x-0 bottom-0 -z-10 transform-gpu overflow-hidden blur-3xl"
-        aria-hidden="true"
-      >
-        <div
-          className="relative right-0 aspect-[1155/678] w-[36.125rem] max-w-none translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
-          style={{
-            clipPath:
-              'polygon(90% 10%, 100% 30%, 85% 50%, 100% 70%, 80% 90%, 60% 85%, 50% 75%, 40% 90%, 20% 75%, 10% 50%)', 
-            backgroundPosition: 'bottom right',
-            backgroundSize: 'cover', 
-          }}
-        ></div>
-      </div>
-
+      <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="top" id={7}/>
       <div className="pt-20 tracking-tight mb-4 flex justify-center text-2xl font-bold text-white md:text-4xl lg:text-6xl">
         <div className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 mr-4">Secure Systems</div>
         Protected Data

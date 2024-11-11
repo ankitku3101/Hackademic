@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import BackgroundGradient from "../BackgroundGradient";
 
 const World = dynamic(() => import("../ui/globe").then((m) => m.World), {
   ssr: false,
@@ -396,20 +397,9 @@ export default function Hero() {
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto bg-[#010101] relative w-full isolate">
-      <div
-        className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
-        aria-hidden="true"
-      >
-        <div
-          className="relative right-1/2 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
-          style={{
-            clipPath:
-              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-          }}
-        ></div>
-      </div>
-      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
+    <div className="flex flex-row items-center justify-center py-20 h-full md:h-auto bg-[#010101] relative w-full isolate">
+      <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="top left" id={3} />
+      <div className="max-w-7xl mx-auto w-full relative h-full md:h-[40rem] px-4"> {/* Increased the height */}
         <motion.div
           initial={{
             opacity: 0,
@@ -422,7 +412,7 @@ export default function Hero() {
           transition={{
             duration: 1,
           }}
-          className="div "
+          className="div"
         >
           <h2 className="text-center text-xl md:text-7xl tracking-tighter font-bold text-white">
             HACKADEMIC
@@ -431,11 +421,12 @@ export default function Hero() {
             Never compromise on <span className="text-red-500 font-semibold">security</span>
           </p>
         </motion.div>
-        <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent to-[#010101] z-40" />
-        <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">
+        <div className="absolute w-full bottom-0 inset-x-0 h-40 pointer-events-none select-none z-40" />
+        <div className="absolute w-full -bottom-20 h-80 md:h-[40rem] z-10"> {/* Adjusted bottom margin */}
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>
     </div>
   );
+  
 }
