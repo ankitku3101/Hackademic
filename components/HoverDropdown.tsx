@@ -53,7 +53,7 @@ export default function HoverDropdown({
         className={`${
           isOpen ? 'block' : 'hidden'
         } absolute z-10 divide-y divide-gray-100 shadow bg-zinc-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-45 min-w-0`}
-        style={{ left: '50%', transform: 'translateX(-50%)' }} // Center the dropdown relative to button
+        style={{ left: '50%', transform: 'translateX(-50%)' }} 
       >
         <ul className="py-2 text-sm text-white">{children}</ul>
       </div>
