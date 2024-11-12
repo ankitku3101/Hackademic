@@ -4,9 +4,9 @@ import Image from 'next/image';
 import Logo from '@/assets/logo.png';
 import { useState } from 'react';
 import Link from 'next/link';
+import HoverDropdown, { LinkMenu } from './HoverDropdown';
 
 const Header = () => {
-  const [isDropdownOpen, setDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -33,32 +33,12 @@ const Header = () => {
             <li>
               <a href="#" className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50" aria-current="page">Home</a>
             </li>
-            <li className="relative">
-              <button
-                onClick={() => setDropdownOpen(!isDropdownOpen)}
-                className="flex items-center justify-between w-full py-2 px-3 text-slate-300/90 rounded hover:text-slate-50"
-              >
-                Services
-                <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
-                </svg>
-              </button>
-              {/* Dropdown menu */}
-              {isDropdownOpen && (
-                <div className="absolute right-0 mt-2 z-10 font-normal bg-black divide-y divide-gray-100 rounded-lg text-center w-24">
-                  <ul className="py-2 text-xs text-slate-300/90">
-                    <li>
-                      <a href="#" className="block py-2 hover:text-slate-50">Courses</a>
-                    </li>
-                    <li>
-                      <a href="#" className="block py-2 hover:text-slate-50">Workshop</a>
-                    </li>
-                    <li>
-                      <a href="#" className="block py-2 hover:text-slate-50">Penetration<br/>Testing</a>
-                    </li>
-                  </ul>
-                </div>
-              )}
+            <li className="py-2 px-3 text-slate-300/90 hover:text-slate-50">
+              <HoverDropdown title='Services'>
+                <LinkMenu href=''>Courses</LinkMenu>
+                <LinkMenu href=''>Workshops</LinkMenu>
+                <LinkMenu href=''>Penetration Testing</LinkMenu>
+              </HoverDropdown>
             </li>
             <li>
               <a href="#" className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Blogs</a>
