@@ -8,7 +8,7 @@ export function WhyUs() {
                 <span className="text-gray-400 my-3 flex items-center justify-center font-medium uppercase tracking-wider">
                     Why choose us
                 </span>
-                <h2 className="block w-full font-bold text-3xl sm:text-4xl text-gray-400">
+                <h2 className="block w-full font-bold text-3xl sm:text-4xl md:text-5xl text-gray-300">
                     Services That Our Customers Love
                 </h2>
                 <p className="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400">
