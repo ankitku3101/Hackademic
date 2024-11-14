@@ -14,7 +14,7 @@ export function Blogs() {
                     </p>
                 </div>
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                    <div className="group p-6 sm:p-8 rounded-3xl bg-gray-800 border border-gray-700 shadow-none">
+                    <div className="bg-transparent p-6 rounded-xl border border-black/10 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-40 text-center shadow-black shadow-xl">
                         <div className="relative overflow-hidden rounded-xl">
                             <Image 
                                 src="https://images.unsplash.com/photo-1661749711934-492cd19a25c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80"
@@ -37,7 +37,7 @@ export function Blogs() {
                             </a>
                         </div>
                     </div>
-                    <div className="group p-6 sm:p-8 rounded-3xl bg-gray-800 border border-gray-700 shadow-none">
+                    <div className="bg-transparent p-6 rounded-xl border border-black/10 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-40 text-center shadow-black shadow-xl">
                         <div className="relative overflow-hidden rounded-xl">
                             <Image 
                                 src="https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80"
@@ -60,7 +60,7 @@ export function Blogs() {
                             </a>
                         </div>
                     </div>
-                    <div className="group p-6 sm:p-8 rounded-3xl bg-gray-800 border border-gray-700 shadow-none">
+                    <div className="bg-transparent p-6 rounded-xl border border-black/10 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-40 text-center shadow-black shadow-xl">
                         <div className="relative overflow-hidden rounded-xl">
                             <Image 
                                 src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"

@@ -9,9 +9,12 @@ export function Testimonials() {
     <section className="relative">
         <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="bottom left" id={15}/>
         <div className="h-[40rem] rounded-md flex flex-col antialiased bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-            <h2 className="pb-20 font-bold text-6xl text-center text-gray-300">
+            <h2 className="pb-4  font-bold text-6xl text-center text-gray-300">
                 Reviews
             </h2>
+            <p className="lg:mx-auto lg:w-6/12 text-gray-300 text-center">
+              What Our Clients Share About Staying Protected
+            </p> 
             <InfiniteMovingCards
                 items={testimonials}
                 direction="right"
