@@ -18,7 +18,6 @@ export default function Home() {
       <Blogs />
       <Testimonials />
       <CallToAction />
-      <Footer />
     </>
   );
 }
