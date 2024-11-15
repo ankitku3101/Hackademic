@@ -41,7 +41,7 @@ const Header = () => {
               </HoverDropdown>
             </li>
             <li>
-              <Link href={'/'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Blogs</Link>
+              <Link href={'/#blogs'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Blogs</Link>
             </li>
             <li>
               <Link href={'/#about'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">About</Link>

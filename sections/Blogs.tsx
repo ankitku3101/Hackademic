@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function Blogs() {
     return (
-        <section id="blog">
+        <section id="blogs">
             <div className="relative max-w-7xl mx-auto m-10 px-6 md:px-12 xl:px-6">
                 <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="bottom left" id={3}/>
                 <div className="mb-12 space-y-2 text-center">
