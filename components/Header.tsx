@@ -31,7 +31,7 @@ const Header = () => {
         <div className={`${isMobileMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto text-sm`} id="navbar-dropdown">
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-2 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
             <li>
-              <a href="#" className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50" aria-current="page">Home</a>
+              <Link href="#" className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50" aria-current="page">Home</Link>
             </li>
             <li className="py-2 px-3 text-slate-300/90 hover:text-slate-50">
               <HoverDropdown title='Services'>
@@ -41,16 +41,16 @@ const Header = () => {
               </HoverDropdown>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Blogs</a>
+              <Link href={'/'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Blogs</Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">About</a>
+              <Link href={'/'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">About</Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Contact</a>
+              <Link href={'/'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Contact</Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Our Team</a>
+              <Link href={'/our-team'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Our Team</Link>
             </li>
           </ul>
         </div>
