@@ -122,6 +122,7 @@ export const CallToAction = () => {
                     <option value="">Courses</option>
                     <option>Workshops</option>
                     <option>Penetration Testing</option>
+                    <option>Corporate Trainings</option>
                   </select>
                 </div>
                   <div className="w-full mt-4">

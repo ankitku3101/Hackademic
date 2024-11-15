@@ -26,32 +26,32 @@ export function Services() {
 export const services = [
   {
     title: "Penetration Testing",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-    id: 1
+    description: "Simulate real-world attacks to identify vulnerabilities and strengthen your system's security.",
+    id: 1,
   },
   {
     title: "Network Security",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-    id: 2
+    description: "Secure your network with robust solutions to protect data and prevent unauthorized access.",
+    id: 2,
   },
   {
-    title: "Web Security",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-    id: 3
+    title: "IT Services",
+    description: "Optimize your business with tailored IT solutions, from cloud integration to system management.",
+    id: 3,
   },
   {
-    title: "Cloud Security",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-    id: 4
+    title: "Courses",
+    description: "Learn from experts with courses on cybersecurity, programming, and more for all skill levels.",
+    id: 4,
   },
   {
-    title: "Server Security",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-    id: 5
+    title: "Workshops",
+    description: "Join interactive workshops to gain hands-on experience and practical knowledge in trending fields.",
+    id: 5,
   },
   {
-    title: "Threat Intelligence",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-    id: 6
+    title: "Digital Forensics",
+    description: "Analyze and recover digital evidence to support investigations and ensure data integrity.",
+    id: 6,
   },
 ];

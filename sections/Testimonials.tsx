@@ -7,7 +7,7 @@ import BackgroundGradient from "@/components/BackgroundGradient";
 export function Testimonials() {
   return (
     <section className="relative">
-        <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="bottom left" id={15}/>
+        <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="bottom" id={2}/>
         <div className="h-[40rem] rounded-md flex flex-col antialiased bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
             <h2 className="pb-4  font-bold text-6xl text-center text-gray-300">
                 Reviews

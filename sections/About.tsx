@@ -29,7 +29,7 @@ export function About() {
             <p className="my-8 text-gray-300">
             Our dedicated professionals provide comprehensive protection tailored to your unique needs,
              ensuring your data remains safe and secure. <br/> 
-             <br/>  Phone: 8077506484, 7668116055 <br /> 
+             <br/>  Phone: +91 6396111576 <br /> 
             Email: cyberworld.hackademic@gmail.com
             </p>
             <div className="divide-y space-y-4 divide-gray-800">
