@@ -1,10 +1,8 @@
 import BackgroundGradient from "@/components/BackgroundGradient";
 import BlogCard from "@/components/BlogCard";
-import { getAllBlogs } from "@/lib/blogUtils"; // Import the utility function to fetch blog data
-import defaultBlogImage from "@/assets/blogImg.png"; // Import the default image
+import { getAllBlogs } from "@/lib/blogUtils"; 
 
 export function Blogs() {
-  // Fetch the blog data using the getAllBlogs utility function
   const blogData = getAllBlogs();
 
   return (
@@ -19,19 +17,24 @@ export function Blogs() {
           </p>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {/* Render BlogCard for each blog in the fetched data */}
-          {blogData.map((blog, index) => (
-            <BlogCard
+          {blogData.map((blog, index) => {
+            const imageSrc = blog.metadata.image 
+              ? `/assets/${blog.metadata.image.replace(/^\/+/, '')}` 
+              : '/assets/blogImg.png';
+
+            return (
+              <BlogCard
                 key={index}
-                imageSrc={blog.metadata.image || defaultBlogImage} // Use blog image or default if not present
-                title={blog.metadata.title} // Correctly passing title field from metadata
-                description={blog.metadata.description} // Correctly passing description field from metadata
-                date={blog.metadata.date} // Passing date field to BlogCard
-                excerpt={blog.metadata.excerpt} // Passing excerpt field to BlogCard
-                slug={blog.slug} // Ensure the 'slug' is correctly passed to BlogCard
-                link={`/blogs/${blog.slug}`} // Pass the correct link to the BlogCard
-            />
-            ))}
+                imageSrc={imageSrc} 
+                title={blog.metadata.title} 
+                description={blog.metadata.description}
+                date={blog.metadata.date} 
+                excerpt={blog.metadata.excerpt} 
+                slug={blog.slug} 
+                link={`/blogs/${blog.slug}`}
+              />
+            );
+          })}
         </div>
       </div>
     </section>

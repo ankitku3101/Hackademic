@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Pie from '@/assets/pie.svg'
 import BackgroundGradient from "@/components/BackgroundGradient";
 
 export function About() {
@@ -14,7 +13,7 @@ export function About() {
         <div className="space-y-6 justify-between text-gray-600 md:flex flex-row-reverse md:gap-6 md:space-y-0 lg:gap-12 lg:items-center">
             <div className="md:5/12 lg:w-1/2">
             <Image
-                src={Pie}
+                src={'/assets/pie.svg'}
                 alt="image"
                 loading="lazy"
                 width={50}

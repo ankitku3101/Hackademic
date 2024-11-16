@@ -12,7 +12,7 @@ export function getAllBlogs() {
     const fileContents = fs.readFileSync(filePath, "utf-8");
     const { data, content } = matter(fileContents);
 
-    const defaultImage = "/assets/blogImg.png"; 
+    const defaultImage = "//blogImg.png"; 
     const defaultTitle = "Untitled Blog Post";
     const defaultDescription = "No description available for this blog post.";
     const defaultDate = new Date().toISOString(); 

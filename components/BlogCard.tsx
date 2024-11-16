@@ -13,7 +13,7 @@ interface BlogCardProps {
 
 const BlogCard: React.FC<BlogCardProps> = ({ imageSrc, title, description, slug, date, excerpt, link }) => {
   const truncatedExcerpt = excerpt ? `${excerpt}...` : "";
-
+  console.log(imageSrc);
   return (
     <div className="bg-transparent p-6 rounded-xl border border-black/10 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-40 text-center shadow-black shadow-xl">
       <div className="relative overflow-hidden rounded-xl">

@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import Logo from '@/assets/logo.png';
 import { useState } from 'react';
 import Link from 'next/link';
 import HoverDropdown, { LinkMenu } from './HoverDropdown';
@@ -13,7 +12,7 @@ const Header = () => {
     <header className="sticky top-0 z-40 border-b transition duration-200 ease-in-out border-white/10 py-4 px-10 bg-black/50 backdrop-blur-md">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <Image src={Logo} width={30} height={30} alt="Hackademic Logo" />
+          <Image src={'/assets/logo.png'} width={30} height={30} alt="Hackademic Logo" />
           <span className="text-lg font-bold text-slate-200/90 hover:text-slate-50 tracking-tight">HACKADEMIC</span>
         </Link>
         <button

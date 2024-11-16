@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Logo from '@/assets/logo.png';
 
 export default function Footer() {
   return (
@@ -9,7 +8,7 @@ export default function Footer() {
         <div className="lg:flex lg:items-center">
           <a href="#">
             <Image 
-              src={Logo} 
+              src={'/assets/logo.png'} 
               alt="logo" 
               width={300} 
               height={300} 

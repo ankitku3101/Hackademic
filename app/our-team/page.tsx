@@ -1,7 +1,6 @@
 import BackgroundGradient from '@/components/BackgroundGradient';
 import MemberCard from '@/components/MemberCard';
 import ProfileCard from '@/components/ProfileCard';
-import MalePP from '@/assets/malePP.jpg';
 import React from 'react';
 
 function page() {
@@ -22,10 +21,10 @@ function page() {
         />
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-4 max-w-xl mx-auto md:max-w-3xl lg:max-w-5xl mt-10 pb-16">
-        <MemberCard profileImg={MalePP.src} name="Kaushik Thapa" designation="Security Professional" />
-        <MemberCard profileImg={MalePP.src} name="Bijendra Rana" designation="Security Professional" />
-        <MemberCard profileImg={MalePP.src} name="Vaibhav Lekhwar" designation="Security Professional" />
-        <MemberCard profileImg={MalePP.src} name="Ankit Kumar" designation="Developer" />
+        <MemberCard profileImg={'/assets/malePP.jpg'} name="Kaushik Thapa" designation="Security Professional" />
+        <MemberCard profileImg={'/assets/malePP.jpg'} name="Bijendra Rana" designation="Security Professional" />
+        <MemberCard profileImg={'/assets/malePP.jpg'} name="Vaibhav Lekhwar" designation="Security Professional" />
+        <MemberCard profileImg={'/assets/malePP.jpg'} name="Ankit Kumar" designation="Developer" />
       </div>
     </div>
   );
