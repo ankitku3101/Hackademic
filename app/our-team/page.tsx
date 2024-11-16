@@ -6,7 +6,7 @@ import React from 'react';
 
 function page() {
   return (
-    <div className="container h-auto pb-16">
+    <div className="container h-auto pb-20">
       <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="bottom" id={12} />
       <div className="p-8">
         <h1 className="text-6xl text-center font-bold tracking-tight text-gray-300">

@@ -10,7 +10,7 @@ const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 border-b transition duration-200 ease-in-out border-white/10 p-4 bg-black/50 backdrop-blur-md">
+    <header className="sticky top-0 z-40 border-b transition duration-200 ease-in-out border-white/10 py-4 px-10 bg-black/50 backdrop-blur-md">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image src={Logo} width={30} height={30} alt="Hackademic Logo" />
