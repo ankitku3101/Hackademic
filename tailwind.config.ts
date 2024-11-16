@@ -16,6 +16,11 @@ const config = {
   ],
   prefix: "",
   theme: {
+    screens: {
+      sm: "375px",
+      md: "768px",
+      lg: "1200px",
+    },
     container: {
       center: true,
       padding: {
@@ -24,6 +29,7 @@ const config = {
       },
     },
     extend: {
+      scrollBehavior: ['smooth'],
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

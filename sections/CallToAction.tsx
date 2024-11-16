@@ -49,14 +49,14 @@ export const CallToAction = () => {
     >
       <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="bottom" id={14}/>
       <div className="container relative">
-        <div className="px-6 py-12 mx-auto">
+        <div className="py-12 mx-auto">
           <div className="lg:flex lg:items-center lg:-mx-6">
             <div className="lg:w-1/2 lg:mx-6 p-8 h-full w-full ">
               <div className="mb-4 flex flex-col text-4xl text-gray-900 md:text-5xl lg:text-7xl text-center lg:text-left">
                 <div className="tracking-tight text-gray-300 font-bold mb-2">
                   Contact Us
                 </div>
-                <p className="text-center lg:text-left text-gray-300 text-[20px] tracking-wide leading-none">
+                <p className="text-center lg:text-left text-gray-300 text-[18px] tracking-wide leading-none">
                   Reach out and we'll get in touch within 24 hours.
                 </p>
               </div>
