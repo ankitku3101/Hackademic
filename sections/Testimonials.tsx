@@ -28,31 +28,30 @@ export function Testimonials() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "As a student of ethical hacking, I find it a fascinating field that sharpens problem-solving skills while learning to protect systems from cyber threats and enhance security practices. Highly recommended!",
+    name: "KAUSHIK THAPA",
+    title: "Ethical Hacking",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+      "As a student, penetration testing gave me hands-on experience with real-world cybersecurity threats. It was an eye-opening way to understand vulnerabilities and the importance of proactive defense. Highly recommended!",
+    name: "VAIBHAV LEKHWAR",
+    title: "Pentesting & Vulnerability",
   },
   {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
+    quote: "As a student of network security, I find it essential for understanding how to safeguard networks from cyberattacks, prevent data breaches, and maintain secure communication across systems and devices. Highly recommended!",
+    name: "BIJENDAR RANA",
+    title: "Network Security",
+  },
+  {
+    quote: "As a CCNA student, I find the course highly valuable for building foundational knowledge in networking, including routing, switching, and network troubleshooting, which are essential for a career in IT . Highly recommended!",
+    name: "SHALINI DEVRARI",
+    title: "CCNA",
   },
   {
     quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
-  },
-  {
-    quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      "As a student of ethical hacking, I find it an exciting field that teaches how to identify and fix vulnerabilities, improving security skills and preparing for a career in cybersecurity. Highly recommended!",
+    name: "SHIVANG SEMWAL",
+    title: "Ethical Hacking",
   },
 ];
