@@ -7,7 +7,7 @@ export default function BlogPost({ metadata, content }: any) {
       
       <p className="text-gray-500 mb-6">{metadata.date}</p>
 
-      <div className="mt-8 prose lg:prose-xl">
+      <div className="mt-8 prose lg:prose-xl text-justify">
         <Markdown
           options={{
             overrides: {
