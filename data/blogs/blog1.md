@@ -2,6 +2,7 @@
 title: "The Art of Deception: Unveiling Social Engineering Tactics and Techniques"
 date: "2024-11-17"
 author: "Khusi Pant"
+image: "/blog1.jpg"
 tags: ["Cybersecurity", "Social Engineering"]
 ---
 

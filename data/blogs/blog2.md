@@ -2,6 +2,7 @@
 title: "The Evolving Threat Landscape: A Comprehensive Guide to Types of Cyberattacks"
 date: "2024-11-17"
 author: "Khusi Pant"
+image: "/blog2.jpg"
 tags: ["Cybersecurity", "Social Engineering", "Cyberattacks"]
 ---
 

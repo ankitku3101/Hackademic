@@ -2,6 +2,7 @@
 title: "Cybersecurity for Small Businesses: Essential Security Tips for Smaller Companies"
 date: "2024-11-17"
 author: "Khusi Pant"
+image: "/blog3.jpg"
 tags: ["Cybersecurity", "Social Engineering", "Cyberattacks", "Business"]
 ---
 

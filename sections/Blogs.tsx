@@ -12,8 +12,7 @@ export function Blogs() {
         <div className="mb-12 space-y-2 text-center">
           <h2 className="text-3xl font-bold text-gray-300 md:text-5xl">Latest Blogs</h2>
           <p className="lg:mx-auto lg:w-6/12 text-gray-300 p-2">
-            Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt, debitis dolorum officia
-            aliquid explicabo? Excepturi, voluptate?
+            Dive into the latest cybersecurity threats, trends, solutions, and expert insights to strengthen your digital defense strategies.
           </p>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
