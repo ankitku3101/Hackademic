@@ -34,9 +34,9 @@ const Header = () => {
             </li>
             <li className="py-2 px-3 text-slate-300/90 hover:text-slate-50">
               <HoverDropdown title='Services'>
-                <LinkMenu href=''>Courses</LinkMenu>
-                <LinkMenu href=''>Workshops</LinkMenu>
-                <LinkMenu href=''>Penetration Testing</LinkMenu>
+                <LinkMenu href='/services/courses'>Courses</LinkMenu>
+                <LinkMenu href='/services/workshops'>Workshops</LinkMenu>
+                <LinkMenu href='/services/pen-test'>Penetration Testing</LinkMenu>
               </HoverDropdown>
             </li>
             <li>
