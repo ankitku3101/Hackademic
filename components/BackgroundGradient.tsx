@@ -22,15 +22,15 @@ const clipPathPatterns = [
 ];
 
 const BackgroundGradient: React.FC<BackgroundGradientProps> = ({ color1, color2, position, id }) => {
-  const selectedClipPath = clipPathPatterns[id % clipPathPatterns.length]; // Ensures valid id selection
+  const selectedClipPath = clipPathPatterns[id % clipPathPatterns.length]; // Ensure valid id selection
 
   const getPositionStyles = () => {
-    // Sets styles based on specified position
+    // Define styles based on the specified position
     const positionStyles: Record<string, React.CSSProperties> = {
-      'top left': { top: 0, left: 0, transform: 'none' },
-      'top right': { top: 0, right: 0, transform: 'none' },
-      'bottom left': { bottom: 0, left: 0, transform: 'none' },
-      'bottom right': { bottom: 0, right: 0, transform: 'none' },
+      'top left': { top: 0, left: 0 },
+      'top right': { top: 0, right: 0 },
+      'bottom left': { bottom: 0, left: 0 },
+      'bottom right': { bottom: 0, right: 0 },
       'top': { top: 0, left: '50%', transform: 'translateX(-50%)' },
       'bottom': { bottom: 0, left: '50%', transform: 'translateX(-50%)' },
       'left': { top: '50%', left: 0, transform: 'translateY(-50%)' },
@@ -41,12 +41,16 @@ const BackgroundGradient: React.FC<BackgroundGradientProps> = ({ color1, color2,
 
   return (
     <div
-      className="absolute -z-10 transform-gpu overflow-hidden blur-3xl"
+      className="absolute -z-10 overflow-hidden blur-3xl"
       aria-hidden="true"
-      style={getPositionStyles()}
+      style={{
+        ...getPositionStyles(),
+        width: '100%',
+        height: '100%',
+      }}
     >
       <div
-        className="relative aspect-[1155/678] w-[36.125rem] max-w-none rotate-[30deg] opacity-20 sm:w-[72.1875rem]"
+        className="relative aspect-[1155/678] w-full max-w-[36.125rem] sm:max-w-[72.1875rem] rotate-[30deg] opacity-20"
         style={{
           clipPath: selectedClipPath,
           backgroundImage: `linear-gradient(to ${position}, ${color1}, ${color2})`,
