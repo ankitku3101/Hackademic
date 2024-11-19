@@ -21,9 +21,9 @@ function page() {
         />
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-4 max-w-xl mx-auto md:max-w-3xl lg:max-w-5xl mt-10 pb-16">
-        <MemberCard profileImg={'/assets/dummy.png'} name="Kaushik Thapa" designation="Security Professional" />
+        <MemberCard profileImg={'/assets/kaushik.jpg'} name="Kaushik Thapa" designation="Security Professional" />
         <MemberCard profileImg={'/assets/BijendraRana.jpg'} name="Bijendra Rana" designation="Security Professional" />
-        <MemberCard profileImg={'/assets/dummy.png'} name="Vaibhav Lekhwar" designation="Security Professional" />
+        <MemberCard profileImg={'/assets/vaibhav.jpg'} name="Vaibhav Lekhwar" designation="Security Professional" />
         <MemberCard profileImg={'/assets/dummy.png'} name="Ankit Kumar" designation="Developer" />
       </div>
     </div>
