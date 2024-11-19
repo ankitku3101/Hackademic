@@ -396,7 +396,7 @@ export default function Hero() {
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center py-20 h-full md:h-auto bg-[#010101] relative w-full isolate">
+    <div className="flex flex-row items-center justify-center py-20 h-full md:h-auto bg-[#010101] relative w-full isolate overflow-hidden">
       <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="top left" id={3} />
       <div className="max-w-7xl mx-auto w-full relative h-[20rem] md:h-[40rem] px-4"> {/* Increased the height */}
         <motion.div
