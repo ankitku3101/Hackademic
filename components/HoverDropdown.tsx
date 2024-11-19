@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export function LinkMenu({ href, children }: { href: string; children: ReactNode }) {
   return (
-    <Link href={href} className="block px-4 py-2 hover:bg-zinc-900">
+    <Link href={href} className="block px-4 py-2 hover:bg-blue-600">
       {children}
     </Link>
   );
@@ -52,7 +52,7 @@ export default function HoverDropdown({
         onMouseLeave={() => setIsOpen(false)}
         className={`${
           isOpen ? 'block' : 'hidden'
-        } absolute z-10 divide-y divide-gray-100 shadow bg-zinc-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-45 min-w-0`}
+        } absolute z-10 divide-y divide-gray-100 shadow bg-zinc-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-90 min-w-0`}
         style={{ left: '50%', transform: 'translateX(-50%)' }} 
       >
         <ul className="py-2 text-sm text-white">{children}</ul>

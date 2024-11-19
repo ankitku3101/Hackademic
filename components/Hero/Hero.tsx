@@ -398,7 +398,7 @@ export default function Hero() {
   return (
     <div className="flex flex-row items-center justify-center py-20 h-full md:h-auto bg-[#010101] relative w-full isolate">
       <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="top left" id={3} />
-      <div className="max-w-7xl mx-auto w-full relative h-full md:h-[40rem] px-4"> {/* Increased the height */}
+      <div className="max-w-7xl mx-auto w-full relative h-[20rem] md:h-[40rem] px-4"> {/* Increased the height */}
         <motion.div
           initial={{
             opacity: 0,
@@ -413,10 +413,10 @@ export default function Hero() {
           }}
           className="div"
         >
-          <h2 className="text-center text-xl md:text-7xl tracking-tighter font-bold text-white">
+          <h2 className="text-center text-3xl md:text-7xl tracking-tighter font-bold text-white">
             HACKADEMIC
           </h2>
-          <p className="text-center tracking-tighter text-base md:text-2xl font-normal text-neutral-200 max-w-md mt-2 mx-auto">
+          <p className="text-center tracking-tighter text-lg md:text-2xl font-normal text-neutral-200 max-w-md mt-2 mx-auto">
             Never compromise on <span className="text-red-500 font-semibold">security</span>
           </p>
         </motion.div>

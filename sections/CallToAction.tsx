@@ -56,7 +56,7 @@ export const CallToAction = () => {
                 <div className="tracking-tight text-gray-300 font-bold mb-2">
                   Contact Us
                 </div>
-                <p className="text-center lg:text-left text-gray-300 text-[18px] tracking-wide leading-none">
+                <p className="text-center lg:text-left text-gray-300 text-[18px] tracking-wide leading-snug">
                   Reach out and we'll get in touch within 24 hours.
                 </p>
               </div>

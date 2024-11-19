@@ -17,7 +17,7 @@ export function WhyUs() {
                 </p>
             </div>
 
-            <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-1 lg:grid-cols-3">
                 <div className="p-6 bg-transparent rounded-xl border border-black/10 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-40 text-center shadow-black shadow-xl">
                     <div className='flex flex-col items-center'>
                         <ShieldCheck className="h-12 w-16 text-blue-400 m-4" />
