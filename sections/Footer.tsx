@@ -60,13 +60,13 @@ export default function Footer() {
               <Link href={'/#contact'} className='text-gray-300 hover:text-white text-sm'>Contact</Link>
             </li>
             <li>
-              <Link href={'/courses'} className='text-gray-300 hover:text-white text-sm'>Courses</Link>
+              <Link href={'/services/courses'} className='text-gray-300 hover:text-white text-sm'>Courses</Link>
             </li>
             <li>
-              <Link href={'/workshops'} className='text-gray-300 hover:text-white text-sm'>Workshops</Link>
+              <Link href={'/services/workshops'} className='text-gray-300 hover:text-white text-sm'>Workshops</Link>
             </li>
             <li>
-              <Link href={'/pen-test'} className='text-gray-300 hover:text-white text-sm'>Penetration Testing</Link>
+              <Link href={'/services/pen-test'} className='text-gray-300 hover:text-white text-sm'>Penetration Testing</Link>
             </li>
           </ul>
         </div>
