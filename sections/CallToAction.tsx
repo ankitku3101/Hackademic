@@ -38,6 +38,10 @@ export const CallToAction = () => {
 
   const handleSubmit = (error: any) => {
     error.preventDefault();
+    if (!formData.course) {
+      toast.error("Please select an option");
+      return;
+    }
     onSubmit(formData, setLoading);
   };
 
@@ -119,10 +123,13 @@ export const CallToAction = () => {
                     onChange={handleChange}
                     className="block w-full px-3 py-2 mt-1 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   >
-                    <option value="">Courses</option>
-                    <option>Workshops</option>
-                    <option>Penetration Testing</option>
-                    <option>Corporate Trainings</option>
+                    <option value="" disabled>
+                      . . .
+                    </option>
+                    <option value="Courses">Courses</option>
+                    <option value="Workshops">Workshops</option>
+                    <option value="Penetration Testing">Penetration Testing</option>
+                    <option value="Corporate Trainings">Corporate Trainings</option>
                   </select>
                 </div>
                   <div className="w-full mt-4">
