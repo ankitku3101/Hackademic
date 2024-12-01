@@ -11,6 +11,7 @@
   "dependencies": {
     "@react-three/drei": "^9.115.0",
     "@react-three/fiber": "^8.17.10",
+    "@types/nodemailer": "^6.4.17",
     "axios": "^1.7.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -20,6 +21,7 @@
     "markdown-to-jsx": "^7.6.2",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.16",
+    "nodemailer": "^6.9.16",
     "react": "^18",
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
