@@ -4,6 +4,9 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/sections/Footer";
 import { Toaster } from "react-hot-toast";
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import Whatsapp from "@/components/Whatsapp";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,6 +35,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
+        <Whatsapp />
         {children}
         <Toaster
           position="bottom-right"
