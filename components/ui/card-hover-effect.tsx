@@ -1,5 +1,7 @@
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
+import { Url } from "next/dist/shared/lib/router/router";
+import Link from "next/link";
 import { useState } from "react";
 
 export const HoverEffect = ({
@@ -10,6 +12,7 @@ export const HoverEffect = ({
     title: string;
     description: string;
     id: number;
+    link: string
   }[];
   className?: string;
 }) => {
@@ -49,6 +52,7 @@ export const HoverEffect = ({
           <Card>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
+            <ReadMore>{item.link}</ReadMore>
           </Card>
         </div>
       ))}
@@ -107,5 +111,22 @@ export const CardDescription = ({
     >
       {children}
     </p>
+  );
+};
+
+
+export const ReadMore = ({
+  className,
+  children
+}: {
+  className?: string;
+  children: Url
+}) => {
+  return (
+    <Link href={children} className={cn('text-xs md:text-sm',className)}>
+        <div className="mt-4 text-gray-50 hover:text-gray-300">
+          Read More
+        </div>
+    </Link>
   );
 };

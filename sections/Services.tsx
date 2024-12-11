@@ -28,30 +28,36 @@ export const services = [
     title: "Penetration Testing",
     description: "Simulate real-world attacks to identify vulnerabilities and strengthen your system's security.",
     id: 1,
+    link: "/services/pen-test"
   },
   {
     title: "Network Security",
     description: "Secure your network with robust solutions to protect data and prevent unauthorized access.",
     id: 2,
+    link: ""
   },
   {
-    title: "IT Services",
-    description: "Optimize your business with tailored IT solutions, from cloud integration to system management.",
+    title: "Data Recovery",
+    description: "Accidental deletion or hardware failure? No problem. Recover your important data with our reliable solutions.",
     id: 3,
+    link: ""
   },
   {
     title: "Courses",
     description: "Learn from experts with courses on cybersecurity, programming, and more for all skill levels.",
     id: 4,
+    link: "/courses"
   },
   {
     title: "Workshops",
     description: "Join interactive workshops to gain hands-on experience and practical knowledge in trending fields.",
     id: 5,
+    link: "/services/workshops"
   },
   {
     title: "Digital Forensics",
     description: "Analyze and recover digital evidence to support investigations and ensure data integrity.",
     id: 6,
+    link: ""
   },
 ];
