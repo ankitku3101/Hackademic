@@ -13,7 +13,7 @@ const Header = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image src={'/assets/logo.png'} width={30} height={30} alt="Hackademic Logo" />
-          <span className="text-lg font-bold text-slate-200/90 hover:text-slate-50 tracking-tight">HACKADEMIC</span>
+          <span className="text-lg font-bold hover:text-slate-200/90 text-slate-50 tracking-tight">HACKADEMIC</span>
         </Link>
         <button
           onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
@@ -34,7 +34,7 @@ const Header = () => {
             </li>
             <li className="py-2 px-3 text-slate-300/90 hover:text-slate-50">
               <HoverDropdown title='Services'>
-                <LinkMenu href='/services/courses'>Courses</LinkMenu>
+                <LinkMenu href='/services/webdev'>Web Development</LinkMenu>
                 <LinkMenu href='/services/workshops'>Workshops</LinkMenu>
                 <LinkMenu href='/services/pen-test'>Penetration Testing</LinkMenu>
               </HoverDropdown>
@@ -46,10 +46,10 @@ const Header = () => {
               <Link href={'/#about'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">About</Link>
             </li>
             <li>
-              <Link href={'/#contact'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Contact</Link>
+              <Link href={'/services/courses'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Courses</Link>
             </li>
             <li>
-              <Link href={'/our-team'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Our Team</Link>
+              <Link href={'/#contact'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Contact</Link>
             </li>
           </ul>
         </div>

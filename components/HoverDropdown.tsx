@@ -21,7 +21,7 @@ export default function HoverDropdown({
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative inline-block text-left">
+    <div className="relative inline-block text-center">
       <button
         onMouseEnter={() => setIsOpen(true)}
         onMouseLeave={() => setIsOpen(false)}
