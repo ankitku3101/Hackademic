@@ -29,7 +29,7 @@ export function About() {
             Our dedicated professionals provide comprehensive protection tailored to your unique needs,
              ensuring your data remains safe and secure. <br/> 
              <br/>  Phone: +91 6396111576 <br /> 
-            Email: cyberworld.hackademic@gmail.com
+            Email: support@hackademic.in
             </p>
             <div className="divide-y space-y-4 divide-gray-800">
                 <div className="mt-8 flex gap-4 md:items-center">
