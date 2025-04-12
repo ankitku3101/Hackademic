@@ -49,7 +49,7 @@ const Header = () => {
               <Link href={'/courses'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Courses</Link>
             </li>
             <li>
-              <Link href={'/#contact'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Contact</Link>
+              <Link href={'/contact'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Contact</Link>
             </li>
           </ul>
         </div>

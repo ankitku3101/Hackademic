@@ -19,7 +19,7 @@ async function onSubmit(values: any, setLoading: (loading: boolean) => void) {
   }
 }
 
-export const CallToAction = () => {
+export default function page() {
   const [formData, setFormData] = useState({
     name: '',
     company: '',
@@ -49,7 +49,7 @@ export const CallToAction = () => {
   return (
     <section
       id="contact"
-      className="relative py-10 overflow-x-clip bg-cover bg-fixed sm:bg-left bg-center"
+      className="relative overflow-x-clip bg-cover bg-fixed sm:bg-left bg-center"
     >
       <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="bottom" id={14}/>
       <div className="container relative">

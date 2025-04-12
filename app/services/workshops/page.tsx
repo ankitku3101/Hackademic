@@ -8,7 +8,7 @@ function page() {
     <div className="container h-auto pb-20">
       <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="bottom" id={12} />
       <div className="p-8">
-        <div className="bg-[url('/assets/workshop-bg.jpg')] bg-cover bg-center bg-gray-800 bg-blend-overlay rounded-md py-12">
+        <div className="bg-[url('/assets/workshop-bg.jpg')] bg-cover bg-center bg-gray-900 bg-blend-overlay rounded-md py-12">
           <h1 className="p-4 text-3xl text-center font-bold tracking-tight text-gray-200 md:text-5xl">
               Join our Workshops
           </h1>

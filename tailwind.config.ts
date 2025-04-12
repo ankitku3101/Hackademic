@@ -25,7 +25,7 @@ const config = {
       center: true,
       padding: {
         DEFAULT: "20px",
-        lg: "80px",
+        lg: "30px",
       },
     },
     extend: {
