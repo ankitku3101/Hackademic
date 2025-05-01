@@ -1,15 +1,34 @@
 'use client';
 
 import Image from 'next/image';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import HoverDropdown, { LinkMenu } from './HoverDropdown';
 
 const Header = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      if (offset > 10) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <header className="sticky top-0 z-40 border-b transition duration-200 ease-in-out border-white/10 py-4 px-10 bg-black/50 backdrop-blur-md">
+    <header className={`fixed top-0 left-0 right-0 z-50 transition duration-300 ease-in-out py-4 px-10 ${
+      scrolled ? 'bg-black/50 backdrop-blur-md border-b border-white/10' : 'bg-transparent border-transparent'
+    }`}>
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image src={'/assets/logo.png'} width={30} height={30} alt="Hackademic Logo" />

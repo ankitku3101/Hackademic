@@ -5,7 +5,7 @@ import { Contact } from '@/components/Contact';
 
 function page() {
   return (
-    <div className="container w-full mx-auto h-auto pb-20">
+    <div className="container w-full mx-auto h-auto pb-20 mt-16">
       <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="bottom" id={12} />
 
       <div className='p-8'>  

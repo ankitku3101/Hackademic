@@ -4,7 +4,7 @@ import { BookOpen, Code, Shield, Users } from 'lucide-react'
 
 function page() {
   return (
-    <div className="container h-auto pb-20">
+    <div className="container h-auto pb-20 mt-16">
       <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="bottom" id={12} />
       <div className="p-8">
         <h1 className="p-4 text-3xl text-center font-bold tracking-tight text-gray-200 md:text-5xl">

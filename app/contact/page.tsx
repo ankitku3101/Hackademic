@@ -49,7 +49,7 @@ export default function page() {
   return (
     <section
       id="contact"
-      className="relative overflow-x-clip bg-cover bg-fixed sm:bg-left bg-center"
+      className="relative overflow-x-clip bg-cover bg-fixed sm:bg-left bg-center "
     >
       <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="bottom" id={14}/>
       <div className="container relative">
