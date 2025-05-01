@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import BackgroundGradient from "../BackgroundGradient";
 
 export default function Hero() {
   return (
@@ -11,15 +10,12 @@ export default function Hero() {
         autoPlay
         loop
         muted
-        className="absolute w-full h-full object-cover z-0 md:opacity-60 opacity-30"
+        className="absolute w-full h-full object-cover md:object-cover z-0 md:opacity-70 opacity-40 custom-object-position"
       >
         <source src="/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
-      {/* Background Gradient */}
-      {/* <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="top left" id={3} /> */}
-      
       {/* Content */}
       <div className="mx-auto w-full relative h-[20rem] md:h-[40rem] px-16 z-10 flex items-center">
         <motion.div
@@ -34,7 +30,7 @@ export default function Hero() {
           transition={{
             duration: 1,
           }}
-          className="text-center md:text-left w-full" 
+          className="text-center md:text-left w-full"
         >
           <h2 className="text-5xl md:text-7xl tracking-tighter font-bold text-white">
             HACKADEMIC

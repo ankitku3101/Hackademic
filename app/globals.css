@@ -6,3 +6,9 @@
   background-color: #010101;
   color: white;
 }
+
+@media (max-width: 640px) {
+  .custom-object-position {
+    object-position: 38% center; 
+  }
+}
