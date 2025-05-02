@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero/Hero";
+import { HeroCTA } from "@/components/Hero/HeroCTA";
 import { About } from "@/sections/About";
 import { Blogs } from "@/sections/Blogs";
 import { Services } from "@/sections/Services";
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Blogs />
       <Testimonials />
+      <HeroCTA />
     </>
   );
 }

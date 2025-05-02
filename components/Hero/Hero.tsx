@@ -35,8 +35,13 @@ export default function Hero() {
           <h2 className="text-5xl md:text-7xl tracking-tighter font-bold text-white">
             HACKADEMIC
           </h2>
-          <p className="tracking-tighter text-2xl font-normal text-neutral-200 max-w-md mt-2">
-            Never compromise on <span className="text-red-500 font-semibold">security</span>
+          <p className="text-2xl font-normal text-neutral-200 max-w-md mt-2 mb-8">
+          Where Cybersecurity Meets <span className="text-red-500 font-semibold relative top-[1.5px]">Mastery</span>
+          </p>
+          <p className="tracking-wide text-neutral-200 max-w-md text-justify italic font-serif"> 
+          "At Hackademic, Our mission is to equip businesses and governments with the knowledge, tools, & tactical skills needed to withstand cyber warfare.
+           We don’t just train professionals—we forge cyber guardians who anticipate, neutralize, and outsmart threats before they strike. Because in the digital age, 
+           security isn’t optional<br/>—it’s survival."
           </p>
         </motion.div>
       </div>

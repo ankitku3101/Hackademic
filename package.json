@@ -20,6 +20,7 @@
     "lucide-react": "^0.454.0",
     "markdown-to-jsx": "^7.6.2",
     "mini-svg-data-uri": "^1.4.4",
+    "motion": "^12.9.4",
     "next": "14.2.16",
     "nodemailer": "^6.9.16",
     "react": "^18",
