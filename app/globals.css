@@ -5,10 +5,26 @@
 :root{
   background-color: #010101;
   color: white;
+  scroll-behavior: smooth;
 }
 
-@media (max-width: 640px) {
-  .custom-object-position {
-    object-position: 38% center; 
+@media (max-width: 768px) {
+  .hero-video {
+    object-position: 36% center; 
   }
+}
+
+@font-face {
+  font-family: 'sansation-bold';
+  src: url('/fonts/Sansation-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'sansation-italic';
+  src: url('/fonts/Sansation-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'sansation';
+  src: url('/fonts/Sansation-Regular.ttf') format('truetype');
 }

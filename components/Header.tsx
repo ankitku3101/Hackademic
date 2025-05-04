@@ -31,8 +31,8 @@ const Header = () => {
     }`}>
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <Image src={'/assets/logo.png'} width={30} height={30} alt="Hackademic Logo" />
-          <span className="text-lg font-bold hover:text-slate-200/90 text-slate-50 tracking-tight">HACKADEMIC</span>
+          <Image src={'/assets/icon.png'} width={30} height={30} alt="Hackademic Logo" />
+          <span className="text-lg hover:text-slate-200/90 text-slate-50 font-[sansation-bold]">HACKADEMIC</span>
         </Link>
         <button
           onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
@@ -70,6 +70,11 @@ const Header = () => {
             <li>
               <Link href={'/contact'} className="block py-2 px-3 text-slate-300/90 rounded hover:text-slate-50">Contact</Link>
             </li>
+            <li>
+              <Link href={'/contact'} className="relative rounded-md flex py-2 px-3 items-center justify-center overflow-hidden bg-red-800 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-36 hover:before:w-36">
+                <span className="relative z-10">Need Help?</span>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
@@ -78,3 +83,4 @@ const Header = () => {
 };
 
 export default Header;
+

@@ -5,7 +5,7 @@ import { HoverEffect } from "../components/ui/card-hover-effect";
 
 export function Services() {
   return (
-    <section className="container isolate relative">
+    <section id="services" className="container isolate relative">
       <BackgroundGradient color1="#ff80b5" color2="#9089fc" position="top" id={7}/>
       <div className="pt-20 tracking-tight mb-4 flex flex-col items-center md:flex-row md:justify-center text-3xl font-bold text-gray-300 md:text-4xl lg:text-5xl">
         <div className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 md:mr-4">
